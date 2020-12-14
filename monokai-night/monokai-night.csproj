@@ -62,6 +62,9 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.1.3132" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="screen.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>
